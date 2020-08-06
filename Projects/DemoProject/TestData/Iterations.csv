@@ -1,0 +1,9 @@
+Scenario,Flow,Iteration,SubIteration,FirstName,LastName,Date
+BasicFeatures,Iterations&SubIterations,1,1,Cognizant1,ITS1,01/01/2017
+BasicFeatures,Iterations&SubIterations,1,2,Cognizant2,ITS2,02/01/2017
+BasicFeatures,Iterations&SubIterations,1,3,Cognizant3,ITS3,03/01/2017
+BasicFeatures,Iterations&SubIterations,1,4,Cognizant4,ITS4,04/01/2017
+BasicFeatures,Iterations&SubIterations,2,1,Cognizant5,ITS5,01/02/2017
+BasicFeatures,Iterations&SubIterations,2,2,Cognizant6,ITS6,02/02/2017
+BasicFeatures,Iterations&SubIterations,2,3,Cognizant7,ITS7,03/02/2017
+BasicFeatures,Iterations&SubIterations,2,4,Cognizant8,ITS8,04/02/2017

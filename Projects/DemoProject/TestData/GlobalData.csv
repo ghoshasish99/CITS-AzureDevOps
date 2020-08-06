@@ -1,0 +1,5 @@
+GlobalDataID,URL,Discount,timeToWait
+"#gd1",http://toolsqa.com/automation-practice-form/,,
+"#gd2",https://www.google.co.in/,,
+"#discount",,25,
+"#slowTime",,,800

@@ -1,0 +1,9 @@
+Scenario,Flow,Iteration,SubIteration,CountryCode,Response
+Soap,POST,1,1,IN,"<?xml version=""1.0"" encoding=""utf-8""?>
+<soap:Envelope xmlns:soap=""http://schemas.xmlsoap.org/soap/envelope/"">
+  <soap:Body>
+    <m:CapitalCityResponse xmlns:m=""http://www.oorsprong.org/websamples.countryinfo"">
+      <m:CapitalCityResult>New Delhi</m:CapitalCityResult>
+    </m:CapitalCityResponse>
+  </soap:Body>
+</soap:Envelope>"

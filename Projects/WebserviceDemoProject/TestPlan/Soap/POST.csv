@@ -1,0 +1,14 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Webservice,"Set End Point ",setEndPoint,@http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?WSDL,,
+2,Webservice,"Add Header ",addHeader,@Content-Type=text/xml,,
+3,Webservice,"POST SOAP Request ",postSoapRequest,"<Envelope xmlns=""http://schemas.xmlsoap.org/soap/envelope/"">
+    <Body>
+        <CapitalCity xmlns=""http://www.oorsprong.org/websamples.countryinfo"">
+            <sCountryISOCode>{SoapData:CountryCode}</sCountryISOCode>
+        </CapitalCity>
+    </Body>
+</Envelope>",,
+4,Webservice,"Assert Response Code ",assertResponseCode,@200,,
+5,Webservice,"Store Response Message In DataSheet ",storeResponseBodyInDataSheet,SoapData:Response,,
+6,Webservice,"Assert XML Element Equals ",assertXMLelementEquals,@New Delhi,Envelope/Body/CapitalCityResponse/CapitalCityResult/text(),
+7,Webservice,"Close the connection ",closeConnection,,,

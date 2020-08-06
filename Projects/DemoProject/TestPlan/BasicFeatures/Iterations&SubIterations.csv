@@ -1,0 +1,17 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,@http://toolsqa.com/automation-practice-form/,,
+2,firstname,"Click the [<Object>] ",Click,,,Demo
+3,firstname,Enter the value [<Data>] in the Field [<Object>],Set,Iterations:FirstName,Start Param,Demo
+4,lastname,"Click the [<Object>] ",Click,,,Demo
+5,lastname,Enter the value [<Data>] in the Field [<Object>],Set,Iterations:LastName,,Demo
+6,Sex,"Click the [<Object>] ",Click,,,Demo
+7,Years of Experience,"Click the [<Object>] ",Click,,,Demo
+8,datepicker,"Click the [<Object>] ",Click,,,Demo
+9,datepicker,Enter the value [<Data>] in the Field [<Object>],Set,Iterations:Date,End Param,Demo
+10,Profession,"Click the [<Object>] ",Click,,,Demo
+11,Automation Tool,"Click the [<Object>] ",Click,,,Demo
+12,AsiaEuropeAfricaAustraliaSouth,Select item in [<Object>] which has text: [<Data>],selectByVisibleText,@Australia,,Demo
+13,Browser CommandsNavigation Com,Select item in [<Object>] which has text: [<Data>],selectByVisibleText,@Browser Commands,,Demo
+14,Button,"Click the [<Object>] ",Click,,,Demo
+15,"Text1
+ Text2",Assert if [<Object>] element is displayed,assertElementDisplayed,,,Demo

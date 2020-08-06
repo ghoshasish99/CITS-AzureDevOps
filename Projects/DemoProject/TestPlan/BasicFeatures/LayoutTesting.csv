@@ -1,0 +1,10 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,URL_Global:URL,,
+2,Hindi,Assert if [<Object>] is aligned horizontally [<Data>] with [<Object2>],assertElementAlignedHoriz,@all,Marati,Google
+3,Search,Assert if [<Object>] is aligned vertically [<Data>] with [<Object2>],assertElementAlignedVert,@all 377 px,Google Search,Google
+4,Marati,Assert if [<Object>] is leftof [<Object2>] [<Data>],assertElementLeftOf,,Hindi,Google
+5,Search,Assert if [<Object>] is  above [<Data>],assertElementAbove,,Google Search,Google
+6,Google Search,Assert if [<Object>] is  below [<Object2>] [<Data>],assertElementBelow,,Search,Google
+7,Search,"Assert if [<Object>]'s height is [<Data>] ",assertElementHeight,@34 px,,Google
+8,Search,"Assert if [<Object>]'s width is [<Data>] ",assertElementWidth,@503 px,,Google
+9,Search,"Assert if [<Object>]'s height is [<Data>] ",assertElementHeight,@100 px,,Google

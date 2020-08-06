@@ -1,0 +1,5 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,@https://paytm.com/,,
+2,Mobile,"Click the [<Object>] ",Click,,,paytm_Mobile
+3,prepaid Mobile Number,"Click the [<Object>] ",Click,,,paytm_Mobile
+4,prepaid Mobile Number_enterNo,Enter the value [<Data>] in the Field [<Object>],Set,@123456789,,paytm_Mobile

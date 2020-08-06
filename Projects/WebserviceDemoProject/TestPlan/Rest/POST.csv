@@ -1,0 +1,10 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Webservice,"Set End Point ",setEndPoint,@https://reqres.in/api/users,,
+2,Webservice,"POST Rest Request ",postRestRequest,"{
+    ""name"": ""morpheus"",
+    ""job"": ""leader""
+}",,
+3,Webservice,"Store Response Message In DataSheet ",storeResponseBodyInDataSheet,RestData:Response,,
+4,Webservice,"Assert Response Code ",assertResponseCode,@201,,
+5,Webservice,"Store Response Message In DataSheet ",storeJSONelementInDataSheet,RestData:ID,$.id,
+6,Webservice,"Close the connection ",closeConnection,,,

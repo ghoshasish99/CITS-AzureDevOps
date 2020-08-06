@@ -1,0 +1,14 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,URL_Global:URL,,
+2,firstname,"Click the [<Object>] ",Click,,,Demo
+3,firstname,Enter the value [<Data>] in the Field [<Object>],Set,@Cognizant,,Demo
+4,lastname,"Click the [<Object>] ",Click,,,Demo
+5,lastname,Enter the value [<Data>] in the Field [<Object>],Set,@Intelligent Test Scripter,,Demo
+6,Sex,"Click the [<Object>] ",Click,,,Demo
+7,Years of Experience,"Click the [<Object>] ",Click,,,Demo
+8,datepicker,"Click the [<Object>] ",Click,,,Demo
+9,datepicker,Enter the value [<Data>] in the Field [<Object>],Set,@01/01/2017,,Demo
+10,Execute,,BasicFeatures:Reusable,,,
+11,Button,"Click the [<Object>] ",Click,,,Demo
+12,"Text1
+ Text2",Assert if [<Object>] element is displayed,assertElementDisplayed,,,Demo

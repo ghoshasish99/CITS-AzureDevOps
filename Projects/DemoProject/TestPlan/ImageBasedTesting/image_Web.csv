@@ -1,0 +1,16 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [https://www.google.co.in/] in the Browser,Open,@https://www.google.co.in/,,
+2,Search,"Click the [Search] ",Click,,,Google_ImageAndWeb
+3,Search,Enter the value [10+10=] in the Field [Search],Set,@10+10=,,Google_ImageAndWeb
+4,SearchButton,"Click the [<Object>] ",Click,,,Google_ImageAndWeb
+5,calc_result_web,wait for the [<Object>] to be present on the screen is done,imgWait,,,img
+6,calc_result_web,Find Image [<Object>]  and store text above into variable [<Data>] .,imgStoreTextAbove,%varweb%,,img
+7,App,Open the Application [<Data>],openApp,@calc,,
+8,1,wait for the [<Object>] to be present on the screen is done,imgWait,,,img
+9,1,[<Object>] image is clicked,imgClick,,,img
+10,0,[<Object>] image is clicked,imgClick,,,img
+11,+,[<Object>] image is clicked,imgClick,,,img
+12,1,[<Object>] image is clicked,imgClick,,,img
+13,0,[<Object>] image is clicked,imgClick,,,img
+14,=,[<Object>] image is clicked,imgClick,,,img
+15,rescalc,Find Image [<Object>]  and assert text on above  matches [<Data>],imgAssertTextAbove,%varweb%,,img

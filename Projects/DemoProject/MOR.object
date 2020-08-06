@@ -1,0 +1,174 @@
+<Root type="MOR" ref="DemoProject">
+  <Page packageName="com.android.calculator2" ref="AndroidCalculator">
+    <ObjectGroup ref="8">
+      <Object ref="8">
+        <Property value="" ref="UiAutomator" pref="1"/>
+        <Property value="" ref="UiAutomation" pref="2"/>
+        <Property value="com.android.calculator2:id/digit_8" ref="id" pref="3"/>
+        <Property value="" ref="Accessibility" pref="4"/>
+        <Property value="//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.support.v4.view.ViewPager[1]/android.widget.LinearLayout[1]/android.view.View[1]/android.widget.Button[2]" ref="xpath" pref="5"/>
+        <Property value="android.widget.Button" ref="class" pref="6"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="9">
+      <Object ref="9">
+        <Property value="" ref="UiAutomator" pref="1"/>
+        <Property value="" ref="UiAutomation" pref="2"/>
+        <Property value="com.android.calculator2:id/digit_9" ref="id" pref="3"/>
+        <Property value="" ref="Accessibility" pref="4"/>
+        <Property value="//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.support.v4.view.ViewPager[1]/android.widget.LinearLayout[1]/android.view.View[1]/android.widget.Button[3]" ref="xpath" pref="5"/>
+        <Property value="android.widget.Button" ref="class" pref="6"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="6">
+      <Object ref="6">
+        <Property value="" ref="UiAutomator" pref="1"/>
+        <Property value="" ref="UiAutomation" pref="2"/>
+        <Property value="com.android.calculator2:id/digit_6" ref="id" pref="3"/>
+        <Property value="" ref="Accessibility" pref="4"/>
+        <Property value="//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.support.v4.view.ViewPager[1]/android.widget.LinearLayout[1]/android.view.View[1]/android.widget.Button[6]" ref="xpath" pref="5"/>
+        <Property value="android.widget.Button" ref="class" pref="6"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="5">
+      <Object ref="5">
+        <Property value="" ref="UiAutomator" pref="1"/>
+        <Property value="" ref="UiAutomation" pref="2"/>
+        <Property value="com.android.calculator2:id/digit_5" ref="id" pref="3"/>
+        <Property value="" ref="Accessibility" pref="4"/>
+        <Property value="//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.support.v4.view.ViewPager[1]/android.widget.LinearLayout[1]/android.view.View[1]/android.widget.Button[5]" ref="xpath" pref="5"/>
+        <Property value="android.widget.Button" ref="class" pref="6"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="4">
+      <Object ref="4">
+        <Property value="" ref="UiAutomator" pref="1"/>
+        <Property value="" ref="UiAutomation" pref="2"/>
+        <Property value="com.android.calculator2:id/digit_4" ref="id" pref="3"/>
+        <Property value="" ref="Accessibility" pref="4"/>
+        <Property value="//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.support.v4.view.ViewPager[1]/android.widget.LinearLayout[1]/android.view.View[1]/android.widget.Button[4]" ref="xpath" pref="5"/>
+        <Property value="android.widget.Button" ref="class" pref="6"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="1">
+      <Object ref="1">
+        <Property value="" ref="UiAutomator" pref="1"/>
+        <Property value="" ref="UiAutomation" pref="2"/>
+        <Property value="com.android.calculator2:id/digit_1" ref="id" pref="3"/>
+        <Property value="" ref="Accessibility" pref="4"/>
+        <Property value="//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.support.v4.view.ViewPager[1]/android.widget.LinearLayout[1]/android.view.View[1]/android.widget.Button[7]" ref="xpath" pref="5"/>
+        <Property value="android.widget.Button" ref="class" pref="6"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="2">
+      <Object ref="2">
+        <Property value="" ref="UiAutomator" pref="1"/>
+        <Property value="" ref="UiAutomation" pref="2"/>
+        <Property value="com.android.calculator2:id/digit_2" ref="id" pref="3"/>
+        <Property value="" ref="Accessibility" pref="4"/>
+        <Property value="//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.support.v4.view.ViewPager[1]/android.widget.LinearLayout[1]/android.view.View[1]/android.widget.Button[8]" ref="xpath" pref="5"/>
+        <Property value="android.widget.Button" ref="class" pref="6"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="3">
+      <Object ref="3">
+        <Property value="" ref="UiAutomator" pref="1"/>
+        <Property value="" ref="UiAutomation" pref="2"/>
+        <Property value="com.android.calculator2:id/digit_3" ref="id" pref="3"/>
+        <Property value="" ref="Accessibility" pref="4"/>
+        <Property value="//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.support.v4.view.ViewPager[1]/android.widget.LinearLayout[1]/android.view.View[1]/android.widget.Button[9]" ref="xpath" pref="5"/>
+        <Property value="android.widget.Button" ref="class" pref="6"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="+">
+      <Object ref="+">
+        <Property value="" ref="UiAutomator" pref="1"/>
+        <Property value="" ref="UiAutomation" pref="2"/>
+        <Property value="com.android.calculator2:id/op_add" ref="id" pref="3"/>
+        <Property value="" ref="Accessibility" pref="4"/>
+        <Property value="//*[@content-desc='plus']" ref="xpath" pref="5"/>
+        <Property value="android.widget.Button" ref="class" pref="6"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="?">
+      <Object ref="?">
+        <Property value="" ref="UiAutomator" pref="1"/>
+        <Property value="" ref="UiAutomation" pref="2"/>
+        <Property value="com.android.calculator2:id/op_sub" ref="id" pref="3"/>
+        <Property value="" ref="Accessibility" pref="4"/>
+        <Property value="//*[@content-desc='minus']" ref="xpath" pref="5"/>
+        <Property value="android.widget.Button" ref="class" pref="6"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="?1">
+      <Object ref="?1">
+        <Property value="" ref="UiAutomator" pref="1"/>
+        <Property value="" ref="UiAutomation" pref="2"/>
+        <Property value="com.android.calculator2:id/op_mul" ref="id" pref="3"/>
+        <Property value="" ref="Accessibility" pref="4"/>
+        <Property value="//*[@content-desc='times']" ref="xpath" pref="5"/>
+        <Property value="android.widget.Button" ref="class" pref="6"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="?2">
+      <Object ref="?2">
+        <Property value="" ref="UiAutomator" pref="1"/>
+        <Property value="" ref="UiAutomation" pref="2"/>
+        <Property value="com.android.calculator2:id/op_div" ref="id" pref="3"/>
+        <Property value="" ref="Accessibility" pref="4"/>
+        <Property value="//*[@content-desc='divide']" ref="xpath" pref="5"/>
+        <Property value="android.widget.Button" ref="class" pref="6"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="=">
+      <Object ref="=">
+        <Property value="" ref="UiAutomator" pref="1"/>
+        <Property value="" ref="UiAutomation" pref="2"/>
+        <Property value="com.android.calculator2:id/eq" ref="id" pref="3"/>
+        <Property value="" ref="Accessibility" pref="4"/>
+        <Property value="//*[@content-desc='equals']" ref="xpath" pref="5"/>
+        <Property value="android.widget.Button" ref="class" pref="6"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="0">
+      <Object ref="0">
+        <Property value="" ref="UiAutomator" pref="1"/>
+        <Property value="" ref="UiAutomation" pref="2"/>
+        <Property value="com.android.calculator2:id/digit_0" ref="id" pref="3"/>
+        <Property value="" ref="Accessibility" pref="4"/>
+        <Property value="//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.support.v4.view.ViewPager[1]/android.widget.LinearLayout[1]/android.view.View[1]/android.widget.Button[11]" ref="xpath" pref="5"/>
+        <Property value="android.widget.Button" ref="class" pref="6"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref=".">
+      <Object ref=".">
+        <Property value="" ref="UiAutomator" pref="1"/>
+        <Property value="" ref="UiAutomation" pref="2"/>
+        <Property value="com.android.calculator2:id/dec_point" ref="id" pref="3"/>
+        <Property value="" ref="Accessibility" pref="4"/>
+        <Property value="//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.support.v4.view.ViewPager[1]/android.widget.LinearLayout[1]/android.view.View[1]/android.widget.Button[10]" ref="xpath" pref="5"/>
+        <Property value="android.widget.Button" ref="class" pref="6"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="result">
+      <Object ref="result">
+        <Property value="" ref="UiAutomator" pref="1"/>
+        <Property value="" ref="UiAutomation" pref="2"/>
+        <Property value="com.android.calculator2:id/result" ref="id" pref="3"/>
+        <Property value="" ref="Accessibility" pref="4"/>
+        <Property value="//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.EditText[2]" ref="xpath" pref="5"/>
+        <Property value="android.widget.EditText" ref="class" pref="6"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="formula">
+      <Object ref="formula">
+        <Property value="" ref="UiAutomator" pref="1"/>
+        <Property value="" ref="UiAutomation" pref="2"/>
+        <Property value="com.android.calculator2:id/formula" ref="id" pref="3"/>
+        <Property value="" ref="Accessibility" pref="4"/>
+        <Property value="//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.EditText[1]" ref="xpath" pref="5"/>
+        <Property value="android.widget.EditText" ref="class" pref="6"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+</Root>

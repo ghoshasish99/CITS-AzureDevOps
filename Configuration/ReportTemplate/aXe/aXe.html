@@ -1,0 +1,81 @@
+<!--
+/*
+ * Copyright 2014 - 2017 Cognizant Technology Solutions
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+ -->
+ <!doctype html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <link href="favicon.ico" rel="icon">
+        <link href="css/report.css" rel="stylesheet" />
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div id="wrapper" class="main-content">
+            <header id="title">
+                <h2>Accessibility Report : 
+                    <select id = "test_type">
+                    </select>
+                </h2>
+            </header>
+            <div id="results" class="axe-results">
+                <div class="axe-issue-list">
+                    <div id="toolbar">
+                        <select id = "data_mode">
+                            <option class = "vSelect">Violations</option>
+                            <option class = "pSelect">Passes</option>
+                        </select>
+                    </div>
+                    <div id="list" class="axe-issue-list-nav">
+                        <ul class = "vio-list">
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="axe-issue-details">
+                    <div id = "url">
+                        <label>URL : </label>
+                        <input type="text" value = "" disabled />
+                    </div>
+                    <div id="actions" class="vio-toolbar">
+                        <button class="prev">
+                            <span>&lt;</span>
+                        </button>
+                        <div class="axe-vio-toolbar">
+                            <span id="mode">Violation</span>
+                            <span id="currentNode">1</span> of
+                            <span id="nodeCount">1</span>
+                        </div>
+                        <div class="axe-vio-toolbar right">
+                            <span id="impact">loading..</span>
+                        </div>
+                        <button class="next">
+                            <span>&gt;</span>
+                        </button>
+                    </div>
+                    <div class="axe-issue-details-content">
+                        <div id="issue-details" class="axe-issue-details">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/jquery-3.1.1.min.js"></script>
+		<script src="data/data-list.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

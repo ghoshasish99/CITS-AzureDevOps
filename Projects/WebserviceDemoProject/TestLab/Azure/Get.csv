@@ -1,0 +1,3 @@
+Execute,TestScenario,TestCase,Iteration,Status,Browser,BrowserVersion,Platform
+true,Rest,GET,Single,Passed,No Browser,Default,Any
+true,Rest,POST,Single,Passed,No Browser,Default,Any

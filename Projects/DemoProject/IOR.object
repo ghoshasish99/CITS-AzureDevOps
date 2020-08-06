@@ -1,0 +1,248 @@
+<Root type="OR" ref="DemoProject">
+  <Page ref="Calculator" Url="Calculator.png">
+    <ObjectGroup ref="Two">
+      <Object ref="Two">
+        <Property value="596,408,37,27" ref="Coordinates" pref="1"/>
+        <Property value="" ref="Index" pref="2"/>
+        <Property value="0,0" ref="Offset" pref="3"/>
+        <Property value="0.7f" ref="Precision" pref="4"/>
+        <Property value="0,0,1366,768" ref="ROI" pref="5"/>
+        <Property value="Calculator.png" ref="Reference" pref="6"/>
+        <Property value="" ref="Text" pref="7"/>
+        <Property value="Two.png" ref="Url" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Add">
+      <Object ref="Add">
+        <Property value="674,438,37,32" ref="Coordinates" pref="1"/>
+        <Property value="" ref="Index" pref="2"/>
+        <Property value="-2,-2" ref="Offset" pref="3"/>
+        <Property value="0.7f" ref="Precision" pref="4"/>
+        <Property value="0,0,1366,768" ref="ROI" pref="5"/>
+        <Property value="Calculator.png" ref="Reference" pref="6"/>
+        <Property value="" ref="Text" pref="7"/>
+        <Property value="Add.png" ref="Url" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Six">
+      <Object ref="Six">
+        <Property value="636,372,32,34" ref="Coordinates" pref="1"/>
+        <Property value="" ref="Index" pref="2"/>
+        <Property value="3,3" ref="Offset" pref="3"/>
+        <Property value="0.7f" ref="Precision" pref="4"/>
+        <Property value="0,0,1366,768" ref="ROI" pref="5"/>
+        <Property value="Calculator.png" ref="Reference" pref="6"/>
+        <Property value="" ref="Text" pref="7"/>
+        <Property value="Six.png" ref="Url" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Equals">
+      <Object ref="Equals">
+        <Property value="713,404,40,70" ref="Coordinates" pref="1"/>
+        <Property value="" ref="Index" pref="2"/>
+        <Property value="1,-2" ref="Offset" pref="3"/>
+        <Property value="0.7f" ref="Precision" pref="4"/>
+        <Property value="0,0,1366,768" ref="ROI" pref="5"/>
+        <Property value="Calculator.png" ref="Reference" pref="6"/>
+        <Property value="" ref="Text" pref="7"/>
+        <Property value="Equals.png" ref="Url" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Group">
+      <Object ref="Group">
+        <Property value="554,278,198,65" ref="Coordinates" pref="1"/>
+        <Property value="" ref="Index" pref="2"/>
+        <Property value="3,0" ref="Offset" pref="3"/>
+        <Property value="0.7f" ref="Precision" pref="4"/>
+        <Property value="0,0,1366,768" ref="ROI" pref="5"/>
+        <Property value="Calculator.png" ref="Reference" pref="6"/>
+        <Property value="" ref="Text" pref="7"/>
+        <Property value="Group.png" ref="Url" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Five">
+      <Object ref="Five">
+        <Property value="594,372,41,34" ref="Coordinates" pref="1"/>
+        <Property value="" ref="Index" pref="2"/>
+        <Property value="3,3" ref="Offset" pref="3"/>
+        <Property value="0.7f" ref="Precision" pref="4"/>
+        <Property value="0,0,1366,768" ref="ROI" pref="5"/>
+        <Property value="Calculator.png" ref="Reference" pref="6"/>
+        <Property value="" ref="Text" pref="7"/>
+        <Property value="Five.png" ref="Url" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Three">
+      <Object ref="Three">
+        <Property value="633,407,39,32" ref="Coordinates" pref="1"/>
+        <Property value="" ref="Index" pref="2"/>
+        <Property value="3,-1" ref="Offset" pref="3"/>
+        <Property value="0.7f" ref="Precision" pref="4"/>
+        <Property value="0,0,1366,768" ref="ROI" pref="5"/>
+        <Property value="Calculator.png" ref="Reference" pref="6"/>
+        <Property value="" ref="Text" pref="7"/>
+        <Property value="Three.png" ref="Url" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page ref="Google_calc" Url="Google_calc.png">
+    <ObjectGroup ref="five">
+      <Object ref="five">
+        <Property value="508,431,90,43" ref="Coordinates" pref="1"/>
+        <Property value="" ref="Index" pref="2"/>
+        <Property value="-2,2" ref="Offset" pref="3"/>
+        <Property value="0.7f" ref="Precision" pref="4"/>
+        <Property value="0,0,1366,768" ref="ROI" pref="5"/>
+        <Property value="Google_calc.png" ref="Reference" pref="6"/>
+        <Property value="" ref="Text" pref="7"/>
+        <Property value="five.png" ref="Url" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="six">
+      <Object ref="six">
+        <Property value="597,432,82,41" ref="Coordinates" pref="1"/>
+        <Property value="" ref="Index" pref="2"/>
+        <Property value="0,0" ref="Offset" pref="3"/>
+        <Property value="0.7f" ref="Precision" pref="4"/>
+        <Property value="0,0,1366,768" ref="ROI" pref="5"/>
+        <Property value="Google_calc.png" ref="Reference" pref="6"/>
+        <Property value="" ref="Text" pref="7"/>
+        <Property value="six.png" ref="Url" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="three">
+      <Object ref="three">
+        <Property value="595,475,88,52" ref="Coordinates" pref="1"/>
+        <Property value="" ref="Index" pref="2"/>
+        <Property value="0,0" ref="Offset" pref="3"/>
+        <Property value="0.7f" ref="Precision" pref="4"/>
+        <Property value="0,0,1366,768" ref="ROI" pref="5"/>
+        <Property value="Google_calc.png" ref="Reference" pref="6"/>
+        <Property value="" ref="Text" pref="7"/>
+        <Property value="three.png" ref="Url" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="two">
+      <Object ref="two">
+        <Property value="506,474,91,49" ref="Coordinates" pref="1"/>
+        <Property value="" ref="Index" pref="2"/>
+        <Property value="3,-1" ref="Offset" pref="3"/>
+        <Property value="0.7f" ref="Precision" pref="4"/>
+        <Property value="0,0,1366,768" ref="ROI" pref="5"/>
+        <Property value="Google_calc.png" ref="Reference" pref="6"/>
+        <Property value="" ref="Text" pref="7"/>
+        <Property value="two.png" ref="Url" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="add">
+      <Object ref="add">
+        <Property value="687,525,76,37" ref="Coordinates" pref="1"/>
+        <Property value="" ref="Index" pref="2"/>
+        <Property value="6,-2" ref="Offset" pref="3"/>
+        <Property value="0.7f" ref="Precision" pref="4"/>
+        <Property value="0,0,1366,768" ref="ROI" pref="5"/>
+        <Property value="Google_calc.png" ref="Reference" pref="6"/>
+        <Property value="" ref="Text" pref="7"/>
+        <Property value="add.png" ref="Url" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="equals">
+      <Object ref="equals">
+        <Property value="595,524,82,41" ref="Coordinates" pref="1"/>
+        <Property value="" ref="Index" pref="2"/>
+        <Property value="6,-7" ref="Offset" pref="3"/>
+        <Property value="0.7f" ref="Precision" pref="4"/>
+        <Property value="0,0,1366,768" ref="ROI" pref="5"/>
+        <Property value="Google_calc.png" ref="Reference" pref="6"/>
+        <Property value="" ref="Text" pref="7"/>
+        <Property value="equals.png" ref="Url" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page ref="img" Url="img.png">
+    <ObjectGroup ref="result_web">
+      <Object ref="result_web">
+        <Property value="155,342,595,48" ref="Coordinates"/>
+        <Property value="" ref="Index"/>
+        <Property value="0,0" ref="Offset"/>
+        <Property value="0.7" ref="Precision"/>
+        <Property value="0,0,1366,768" ref="ROI"/>
+        <Property value="_Ref.png" ref="Reference"/>
+        <Property value="" ref="Text"/>
+        <Property value="result_web.png" ref="Url"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="calc_result_web">
+      <Object ref="calc_result_web">
+        <Property value="172,347,599,54" ref="Coordinates"/>
+        <Property value="" ref="Index"/>
+        <Property value="151,7" ref="Offset"/>
+        <Property value="0.7" ref="Precision"/>
+        <Property value="0,0,1366,768" ref="ROI"/>
+        <Property value="_Ref.png" ref="Reference"/>
+        <Property value="" ref="Text"/>
+        <Property value="result_web_last.png" ref="Url"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="1">
+      <Object ref="1">
+        <Property value="557,405,39,33" ref="Coordinates"/>
+        <Property value="" ref="Index"/>
+        <Property value="0,3" ref="Offset"/>
+        <Property value="0.7" ref="Precision"/>
+        <Property value="0,0,1366,768" ref="ROI"/>
+        <Property value="_Ref.png" ref="Reference"/>
+        <Property value="" ref="Text"/>
+        <Property value="1.png" ref="Url"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="0">
+      <Object ref="0">
+        <Property value="554,438,81,34" ref="Coordinates"/>
+        <Property value="" ref="Index"/>
+        <Property value="0,4" ref="Offset"/>
+        <Property value="0.7" ref="Precision"/>
+        <Property value="0,0,1366,768" ref="ROI"/>
+        <Property value="_Ref.png" ref="Reference"/>
+        <Property value="" ref="Text"/>
+        <Property value="0.png" ref="Url"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="+">
+      <Object ref="+">
+        <Property value="670,439,42,35" ref="Coordinates"/>
+        <Property value="" ref="Index"/>
+        <Property value="2,1" ref="Offset"/>
+        <Property value="0.7" ref="Precision"/>
+        <Property value="0,0,1366,768" ref="ROI"/>
+        <Property value="_Ref.png" ref="Reference"/>
+        <Property value="" ref="Text"/>
+        <Property value="+.png" ref="Url"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="=">
+      <Object ref="=">
+        <Property value="715,408,35,62" ref="Coordinates"/>
+        <Property value="" ref="Index"/>
+        <Property value="0,0" ref="Offset"/>
+        <Property value="0.7" ref="Precision"/>
+        <Property value="0,0,1366,768" ref="ROI"/>
+        <Property value="_Ref.png" ref="Reference"/>
+        <Property value="" ref="Text"/>
+        <Property value="=.png" ref="Url"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="rescalc">
+      <Object ref="rescalc">
+        <Property value="551,279,210,64" ref="Coordinates"/>
+        <Property value="" ref="Index"/>
+        <Property value="-2,-2" ref="Offset"/>
+        <Property value="0.7" ref="Precision"/>
+        <Property value="0,0,1366,768" ref="ROI"/>
+        <Property value="_Ref.png" ref="Reference"/>
+        <Property value="" ref="Text"/>
+        <Property value="rescalc.png" ref="Url"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+</Root>

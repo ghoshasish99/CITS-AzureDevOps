@@ -1,0 +1,5 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Profession,"Click the [<Object>] ",Click,,,Demo
+2,Automation Tool,"Click the [<Object>] ",Click,,,Demo
+3,AsiaEuropeAfricaAustraliaSouth,Select item in [<Object>] which has text: [<Data>],selectByVisibleText,@Australia,,Demo
+4,Browser CommandsNavigation Com,Select item in [<Object>] which has text: [<Data>],selectByVisibleText,@Browser Commands,,Demo

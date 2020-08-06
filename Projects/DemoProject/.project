@@ -1,0 +1,170 @@
+{
+  "id" : "DemoProject",
+  "name" : "DemoProject",
+  "attributes" : [ ],
+  "tags" : [ ],
+  "_meta" : [ {
+    "type" : "attribute",
+    "name" : "scenario",
+    "desc" : "High level classification of test requirement/cases grouped together",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Attribute",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "tag",
+    "name" : "@smoke",
+    "desc" : "Non-exhaustive set of tests that aim at ensuring that the most important functions work",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Tag",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "tag",
+    "name" : "@uat",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Tag",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "tag",
+    "name" : "@load",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Tag",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "scenario",
+    "name" : "AccessibilityTesting",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Attribute",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "scenario",
+    "name" : "AngularJS_Support",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Attribute",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "scenario",
+    "name" : "DatabaseActions",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Attribute",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "scenario",
+    "name" : "ImageBasedTesting",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Attribute",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "scenario",
+    "name" : "MobileBasedTesting",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Attribute",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "scenario",
+    "name" : "BasicFeatures",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Attribute",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "scenario",
+    "name" : "Emulators",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Attribute",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "scenario",
+    "name" : "WebPagePerformanceTesting",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Attribute",
+    "attributes" : [ ],
+    "tags" : [ ]
+  } ],
+  "data" : [ {
+    "id" : "AccessibilityTesting#AccessibilityActions",
+    "name" : "AccessibilityActions",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "testcase"
+    }, {
+      "name" : "scenario",
+      "value" : "AccessibilityTesting"
+    } ]
+  }, {
+    "id" : "AngularJS_Support#AngularJS_Test",
+    "name" : "AngularJS_Test",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "testcase"
+    }, {
+      "name" : "scenario",
+      "value" : "AngularJS_Support"
+    } ]
+  }, {
+    "id" : "DatabaseActions#DBTest",
+    "name" : "DBTest",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "testcase"
+    }, {
+      "name" : "scenario",
+      "value" : "DatabaseActions"
+    } ]
+  }, {
+    "id" : "ImageBasedTesting#image_Web",
+    "name" : "image_Web",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "testcase"
+    }, {
+      "name" : "scenario",
+      "value" : "ImageBasedTesting"
+    } ]
+  }, {
+    "id" : "ImageBasedTesting#WindowsAppUsingSikuli",
+    "name" : "WindowsAppUsingSikuli",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "testcase"
+    }, {
+      "name" : "scenario",
+      "value" : "ImageBasedTesting"
+    } ]
+  }, {
+    "id" : "MobileBasedTesting#Mobile_Browser",
+    "name" : "Mobile_Browser",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "testcase"
+    }, {
+      "name" : "scenario",
+      "value" : "MobileBasedTesting"
+    } ]
+  }, {
+    "id" : "MobileBasedTesting#Mobile_Native",
+    "name" : "Mobile_Native",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "testcase"
+    }, {
+      "name" : "scenario",
+      "value" : "MobileBasedTesting"
+    } ]
+  }, {
+    "id" : "WebPagePerformanceTesting#WebPagePerformanceTesting",
+    "name" : "WebPagePerformanceTesting",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "testcase"
+    }, {
+      "name" : "scenario",
+      "value" : "WebPagePerformanceTesting"
+    } ]
+  } ]
+}

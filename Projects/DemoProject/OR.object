@@ -1,0 +1,478 @@
+<Root type="OR" ref="DemoProject">
+  <Page title="" ref="Bing">
+    <ObjectGroup ref="Enter your search term">
+      <Object frame="" ref="Enter your search term">
+        <Property value="q" ref="name" pref="1"/>
+        <Property value="sb_form_q" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@title='Enter your search term']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/table/tbody/tr/td/div/div[2]/div[2]/form/div/input)[1]" ref="xpath" pref="5"/>
+        <Property value="b_searchbox" ref="class" pref="6"/>
+        <Property value="#sb_form_q" ref="css" pref="7"/>
+        <Property value="search" ref="type" pref="8"/>
+        <Property value="" ref="ng-model" pref="8"/>
+        <Property value="" ref="ng-repeat" pref="9"/>
+        <Property value="" ref="bing" pref="10"/>
+        <Property value="Enter your search term" ref="title" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="SearchButton">
+      <Object frame="" ref="SearchButton">
+        <Property value="go" ref="name" pref="1"/>
+        <Property value="sb_form_go" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@title='Search']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/table/tbody/tr/td/div/div[2]/div[2]/form/div/input[2]" ref="xpath" pref="5"/>
+        <Property value="b_searchboxSubmit" ref="class" pref="6"/>
+        <Property value="#sb_form_go" ref="css" pref="7"/>
+        <Property value="submit" ref="type" pref="8"/>
+        <Property value="" ref="ng-model" pref="8"/>
+        <Property value="" ref="ng-repeat" pref="9"/>
+        <Property value="" ref="bing" pref="10"/>
+        <Property value="Search" ref="title" pref="11"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="" ref="paytm">
+    <ObjectGroup ref="Paytm">
+      <Object frame="" ref="Paytm">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Paytm" ref="link_text" pref="3"/>
+        <Property value="(//a[contains(normalize-space(text()),'Paytm')])[1]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div/div[8]/div[4]/div[8]/div/div[2]/div/div[2]/div[2]/div/div/div/div/div/div/div/h3/a)[1]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="div.g > div > div.rc > h3.r > a" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+        <Property value="" ref="ng-model" pref="8"/>
+        <Property value="" ref="ng-repeat" pref="9"/>
+        <Property value="" ref="title" pref="10"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="" ref="paytm_Mobile">
+    <ObjectGroup ref="prepaid Mobile Number">
+      <Object frame="" ref="prepaid Mobile Number">
+        <Property value="operatorName" ref="name" pref="1"/>
+        <Property value="input_3" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@name='operatorName']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[3]/div[3]/div/div/div/div[2]/ul/li/md-input-container/input)[1]" ref="xpath" pref="5"/>
+        <Property value="ng-pristine ng-untouched ng-valid md-input ng-empty ng-valid-maxlength" ref="class" pref="6"/>
+        <Property value="#input_3" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+        <Property value="number" ref="ng-model" pref="8"/>
+        <Property value="" ref="ng-repeat" pref="9"/>
+        <Property value="" ref="title" pref="10"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="prepaid Mobile Number_enterNo">
+      <Object frame="" ref="prepaid Mobile Number_enterNo">
+        <Property value="operatorName" ref="name" pref="1"/>
+        <Property value="input_3" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@name='operatorName']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[3]/div[3]/div/div/div/div[2]/ul/li/md-input-container/input)[1]" ref="xpath" pref="5"/>
+        <Property value="ng-untouched ng-valid md-input ng-valid-maxlength ng-not-empty ng-dirty ng-valid-parse" ref="class" pref="6"/>
+        <Property value="#input_3" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+        <Property value="number" ref="ng-model" pref="8"/>
+        <Property value="" ref="ng-repeat" pref="9"/>
+        <Property value="" ref="title" pref="10"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Operator">
+      <Object frame="" ref="Operator">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="input_4" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//div[2]/ul/li[2]/md-input-container/input" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[3]/div[3]/div/div/div/div[2]/ul/li[2]/md-input-container/input" ref="xpath" pref="5"/>
+        <Property value="ng-pristine ng-untouched ng-valid md-input ng-not-empty" ref="class" pref="6"/>
+        <Property value="#input_4" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+        <Property value="operatorName" ref="ng-model" pref="8"/>
+        <Property value="" ref="ng-repeat" pref="9"/>
+        <Property value="" ref="title" pref="10"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="SelectOperator">
+      <Object frame="" ref="SelectOperator">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="input_4" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//div[2]/ul/li[2]/md-input-container/input" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[3]/div[3]/div/div/div/div[2]/ul/li[2]/md-input-container/input" ref="xpath" pref="5"/>
+        <Property value="ng-pristine ng-valid md-input ng-empty ng-touched" ref="class" pref="6"/>
+        <Property value="#input_4" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+        <Property value="operatorName" ref="ng-model" pref="8"/>
+        <Property value="" ref="ng-repeat" pref="9"/>
+        <Property value="" ref="title" pref="10"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Mobile">
+      <Object frame="" ref="Mobile">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='Mobile']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div/div/div[3]/div/div[3]/div[2]/a/div)[1]" ref="xpath" pref="5"/>
+        <Property value="_1Bte ripple" ref="class" pref="6"/>
+        <Property value="html.no-js > body > #app > div > div._2Bze > div._1N8k > div._4oN2 > div._1HvO > a > div._1Bte.ripple" ref="css" pref="7"/>
+        <Property value="div" ref="type" pref="8"/>
+        <Property value="" ref="ng-model" pref="8"/>
+        <Property value="" ref="ng-repeat" pref="9"/>
+        <Property value="" ref="title" pref="10"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="" ref="Google_ImageAndWeb">
+    <ObjectGroup ref="SearchButton">
+      <Object frame="" ref="SearchButton">
+        <Property value="" ref="id" pref="0"/>
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="link_text" pref="2"/>
+        <Property value="//div[@id='sblsbb']/button/span" ref="relative_xpath" pref="3"/>
+        <Property value="/body/div/div[3]/form/div[2]/div[2]/div/div/div[2]/div/div/div/button/span" ref="xpath" pref="4"/>
+        <Property value="span.sbico" ref="css" pref="5"/>
+        <Property value="sbico" ref="class" pref="6"/>
+        <Property value="span" ref="type" pref="7"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Search">
+      <Object frame="" ref="Search1">
+        <Property value="lst-ib" ref="id" pref="0"/>
+        <Property value="q" ref="name" pref="1"/>
+        <Property value="" ref="link_text" pref="2"/>
+        <Property value="(//div[@id='gs_lc0']/input)[1]" ref="relative_xpath" pref="3"/>
+        <Property value="/body/div/div[3]/form/div[2]/div[2]/div/div/div[3]/div/div[3]/div/input" ref="xpath" pref="4"/>
+        <Property value="#lst-ib" ref="css" pref="5"/>
+        <Property value="gsfi lst-d-f" ref="class" pref="6"/>
+        <Property value="text" ref="type" pref="7"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="" ref="AngularJS_Test">
+    <ObjectGroup ref="Username">
+      <Object frame="" ref="Username">
+        <Property value="user.name" ref="ng-model" pref="8"/>
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="" ref="type" pref="8"/>
+        <Property value="" ref="ng-repeat" pref="9"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Password">
+      <Object frame="" ref="Password">
+        <Property value="user.password" ref="ng-model" pref="8"/>
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="" ref="relative_xpath" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="" ref="css" pref="7"/>
+        <Property value="" ref="type" pref="8"/>
+        <Property value="" ref="ng-repeat" pref="9"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Login">
+      <Object frame="" ref="Login">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//button[@type='submit']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/div/form/fieldset/button" ref="xpath" pref="5"/>
+        <Property value="main-button" ref="class" pref="6"/>
+        <Property value="button.main-button" ref="css" pref="7"/>
+        <Property value="submit" ref="type" pref="8"/>
+        <Property value="" ref="ng-model" pref="8"/>
+        <Property value="" ref="ng-repeat" pref="9"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Create">
+      <Object frame="" ref="Create">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="bAdd" ref="id" pref="2"/>
+        <Property value="Create" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Create')]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div/div/div/ul/li/a)[1]" ref="xpath" pref="5"/>
+        <Property value="subButton" ref="class" pref="6"/>
+        <Property value="#bAdd" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+        <Property value="" ref="ng-model" pref="8"/>
+        <Property value="" ref="ng-repeat" pref="9"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Charlie Shen">
+      <Object frame="" ref="Charlie Shen">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='Charlie Shen']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div/div/div/div/ul/li)[1]" ref="xpath" pref="5"/>
+        <Property value="ng-scope ng-binding" ref="class" pref="6"/>
+        <Property value="html.ng-scope > body > div.main-view.ng-scope ng-animate main-view-employees > div.main-view-wrapper.main-view-wrapper-create main-view-wrapper-employees > div.main-view-container.ng-scope > #employee-list-container > #employee-list > li.ng-scope.ng-binding" ref="css" pref="7"/>
+        <Property value="li" ref="type" pref="8"/>
+        <Property value="" ref="ng-model" pref="8"/>
+        <Property value="employee in employees" ref="ng-repeat" pref="9"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Bing" ref="Bing1">
+    <ObjectGroup ref="Bing">
+      <Object frame="" ref="Bing">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//*[normalize-space(text())='Bing'])[2]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/table/tbody/tr/td/div/div[2]/div)[1]" ref="xpath" pref="5"/>
+        <Property value="hp_sw_logo hpcLogoWhite" ref="class" pref="6"/>
+        <Property value="div.hp_sw_logo.hpcLogoWhite" ref="css" pref="7"/>
+        <Property value="div" ref="type" pref="8"/>
+        <Property value="" ref="title" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="BingMenu">
+      <Object frame="" ref="BingMenu">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="sc_hdu" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//div[3]/div/ul" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/table/tbody/tr/td/div/div[3]/div/ul" ref="xpath" pref="5"/>
+        <Property value="sc_hl1 hp_head_nav" ref="class" pref="6"/>
+        <Property value="#sc_hdu" ref="css" pref="7"/>
+        <Property value="ul" ref="type" pref="8"/>
+        <Property value="" ref="title" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Sign in">
+      <Object frame="" ref="Sign in">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="id_l" ref="id" pref="2"/>
+        <Property value="Sign in" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Sign in')]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/table/tbody/tr/td/div/div[3]/div/div/div/a)[1]" ref="xpath" pref="5"/>
+        <Property value="id_button" ref="class" pref="6"/>
+        <Property value="#id_l" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+        <Property value="" ref="title" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="BindDisplay">
+      <Object frame="" ref="BindDisplay">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="musCardContent" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="/body/table/tbody/tr/td/div/div[4]/div/div[2]/div" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/table/tbody/tr/td/div/div[4]/div/div[2]/div)[1]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#musCardContent" ref="css" pref="7"/>
+        <Property value="div" ref="type" pref="8"/>
+        <Property value="" ref="title" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Google" ref="Google">
+    <ObjectGroup ref="Search">
+      <Object frame="" ref="Search">
+        <Property value="q" ref="name" pref="1"/>
+        <Property value="lst-ib" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="id(&quot;lst-ib&quot;)" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div[4]/form/div[2]/div[2]/div/div/div[2]/div/div/div[2]/div/input" ref="xpath" pref="5"/>
+        <Property value="gsfi lst-d-f" ref="class" pref="6"/>
+        <Property value="#lst-ib" ref="css" pref="7"/>
+        <Property value="input" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Hindi">
+      <Object frame="" ref="Hindi">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="हिन्दी" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'हिन्दी')]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div/div[8]/span/center/div[3]/div[2]/div/a)[1]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="html > #gsr > #viewport > #main > #body > center > #prm-pt > #als > #_eEe > a" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Marati">
+      <Object frame="" ref="Marati">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="मराठी" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'मराठी')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div[8]/span/center/div[3]/div[2]/div/a[4]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="html > #gsr > #viewport > #main > #body > center > #prm-pt > #als > #_eEe > a:nth-of-type(3)" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Google Search">
+      <Object frame="" ref="Google Search">
+        <Property value="btnK" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@value='Google Search']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div/div[3]/form/div[2]/div[3]/center/input)[1]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="input[name=&quot;btnK&quot;]" ref="css" pref="7"/>
+        <Property value="submit" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Demo Form for practicing Selenium Automation" ref="Demo">
+    <ObjectGroup ref="firstname">
+      <Object frame="" ref="firstname">
+        <Property value="firstname" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="id(&quot;content&quot;)/form/fieldset/div/input" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div[5]/div[2]/div/div/form/fieldset/div/input" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#content > form.form-horizontal > fieldset > div.control-group > input[name=&quot;firstname&quot;]" ref="css" pref="7"/>
+        <Property value="input" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="firstname1">
+      <Object frame="" ref="firstname1">
+        <Property value="firstname" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="id(&quot;content&quot;)/form/fieldset/div/input" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div[5]/div[2]/div/div/form/fieldset/div/input" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#content > form.form-horizontal > fieldset > div.control-group.wpoi-filled > input[name=&quot;firstname&quot;]" ref="css" pref="7"/>
+        <Property value="input" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="lastname">
+      <Object frame="" ref="lastname">
+        <Property value="lastname" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="id(&quot;content&quot;)/form/fieldset/div/input[2]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div[5]/div[2]/div/div/form/fieldset/div/input[2]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#content > form.form-horizontal > fieldset > div.control-group.wpoi-filled > input[name=&quot;lastname&quot;]" ref="css" pref="7"/>
+        <Property value="input" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Sex">
+      <Object frame="" ref="Sex">
+        <Property value="sex" ref="name" pref="1"/>
+        <Property value="sex-1" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="id(&quot;sex-1&quot;)" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div[5]/div[2]/div/div/form/fieldset/div[2]/input[2]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#sex-1" ref="css" pref="7"/>
+        <Property value="input" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Years of Experience">
+      <Object frame="" ref="Years of Experience">
+        <Property value="exp" ref="name" pref="1"/>
+        <Property value="exp-1" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="id(&quot;exp-1&quot;)" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div[5]/div[2]/div/div/form/fieldset/div[3]/input[2]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#exp-1" ref="css" pref="7"/>
+        <Property value="input" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="datepicker">
+      <Object frame="" ref="datepicker">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="datepicker" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="id(&quot;datepicker&quot;)" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div[5]/div[2]/div/div/form/fieldset/p[5]/input" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#datepicker" ref="css" pref="7"/>
+        <Property value="input" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Profession">
+      <Object frame="" ref="Profession">
+        <Property value="profession" ref="name" pref="1"/>
+        <Property value="profession-1" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="id(&quot;profession-1&quot;)" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div[5]/div[2]/div/div/form/fieldset/div[4]/input[2]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#profession-1" ref="css" pref="7"/>
+        <Property value="input" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Automation Tool">
+      <Object frame="" ref="Automation Tool">
+        <Property value="tool" ref="name" pref="1"/>
+        <Property value="tool-0" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="id(&quot;tool-0&quot;)" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div[5]/div[2]/div/div/form/fieldset/div[11]/input" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#tool-0" ref="css" pref="7"/>
+        <Property value="input" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="AsiaEuropeAfricaAustraliaSouth">
+      <Object frame="" ref="AsiaEuropeAfricaAustraliaSouth">
+        <Property value="continents" ref="name" pref="1"/>
+        <Property value="continents" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="id(&quot;continents&quot;)" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div[5]/div[2]/div/div/form/fieldset/div[12]/div/select" ref="xpath" pref="5"/>
+        <Property value="input-xlarge" ref="class" pref="6"/>
+        <Property value="#continents" ref="css" pref="7"/>
+        <Property value="select" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Browser CommandsNavigation Com">
+      <Object frame="" ref="Browser CommandsNavigation Com">
+        <Property value="selenium_commands" ref="name" pref="1"/>
+        <Property value="selenium_commands" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="id(&quot;selenium_commands&quot;)" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div[5]/div[2]/div/div/form/fieldset/div[13]/div/select" ref="xpath" pref="5"/>
+        <Property value="input-xlarge" ref="class" pref="6"/>
+        <Property value="#selenium_commands" ref="css" pref="7"/>
+        <Property value="select" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Button">
+      <Object frame="" ref="Button">
+        <Property value="submit" ref="name" pref="1"/>
+        <Property value="submit" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="id(&quot;submit&quot;)" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div[5]/div[2]/div/div/form/fieldset/div[14]/div/button" ref="xpath" pref="5"/>
+        <Property value="btn btn-info" ref="class" pref="6"/>
+        <Property value="#submit" ref="css" pref="7"/>
+        <Property value="button" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Text1&#xd;&#xa; Text2">
+      <Object frame="" ref="Text1&#xd;&#xa; Text2">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="id(&quot;content&quot;)/form/p" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div[5]/div[2]/div/div/form/p" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#content > form.form-horizontal > p" ref="css" pref="7"/>
+        <Property value="p" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+</Root>

@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description>Running Cognizant Intelligent Test Scripter Testcases</description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.StringParameterDefinition>
+          <name>ProjectLocation</name>
+          <description>The Cognizant Intelligent Test Scripter Project Location Relative to Workspace</description>
+          <defaultValue>Projects/Project Name</defaultValue>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.ChoiceParameterDefinition>
+          <name>ExecutionMode</name>
+          <description>TestDesign to run TestCases, TestExecution to run Testsets</description>
+          <choices class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>TestDesign</string>
+              <string>TestExecution</string>
+            </a>
+          </choices>
+        </hudson.model.ChoiceParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>Release_R_Scenario</name>
+          <description>The Release Name if &apos;ExecutionMode&apos; is &apos;TestExecution&apos;
+                        The Scenario Name if &apos;ExecutionMode&apos; is &apos;TestDesign&apos;</description>
+          <defaultValue></defaultValue>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>TestSet_R_TestCase</name>
+          <description>The TestSet Name if &apos;ExecutionMode&apos; is &apos;TestExecution&apos;
+                        The TestCase Name if &apos;ExecutionMode&apos; is &apos;TestDesign&apos;</description>
+          <defaultValue></defaultValue>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>BrowserName</name>
+          <description>Chrome | Firefox | IE | No Browser | Emulator Name 
+                        Only Needed if &apos;ExecutionMode&apos; is &apos;TestDesign&apos;</description>
+          <defaultValue></defaultValue>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>AdditionalArgs</name>
+          <description>Additional Arguments if any Check CLI. </description>
+          <defaultValue>-standalone_report</defaultValue>
+        </hudson.model.StringParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>if [ &quot;$ExecutionMode&quot; == &quot;TestDesign&quot; ];
+then
+	RUN_PROP=(-scenario &quot;${Release_R_Scenario}&quot; -testcase &quot;${TestSet_R_TestCase}&quot; -browser &quot;${BrowserName}&quot;)
+else
+	RUN_PROP=(-release &quot;$Release_R_Scenario&quot; -testset &quot;$TestSet_R_TestCase&quot;) 
+fi
+
+echo $RUN_PROP
+
+./Run.command -run -project_location &quot;$ProjectLocation&quot; &quot;${RUN_PROP[@]}&quot; $AdditionalArgs
+
+result=$(./Run.command -project_location &quot;$ProjectLocation&quot; &quot;${RUN_PROP[@]}&quot; -latest_exe_status)
+
+if [ &quot;$result&quot; == &quot;0&quot; ];
+then
+    exit 1
+fi</command>
+    </hudson.tasks.Shell>
+  </builders>  
+  <publishers>
+    <htmlpublisher.HtmlPublisher plugin="htmlpublisher@1.12">
+      <reportTargets>
+        <htmlpublisher.HtmlPublisherTarget>
+          <reportName>HTML Report</reportName>
+          <reportDir>${ProjectLocation}\Results\${ExecutionMode}\${Release_R_Scenario}\${TestSet_R_TestCase}\Latest</reportDir>
+          <reportFiles>summary.html,console.txt</reportFiles>
+          <alwaysLinkToLastBuild>true</alwaysLinkToLastBuild>
+          <keepAll>true</keepAll>
+          <allowMissing>false</allowMissing>
+        </htmlpublisher.HtmlPublisherTarget>
+      </reportTargets>
+    </htmlpublisher.HtmlPublisher>
+  </publishers>
+  <buildWrappers/>
+</project>

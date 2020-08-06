@@ -1,0 +1,2 @@
+Scenario,Flow,Iteration,SubIteration,Payload,Name,Salary,Age,ResponseBody
+DataDrivenTests,IntegratedTest,1,1,"{     ""name"":""{Put:Name}"",    ""salary"":""{Put:Salary}"",    ""age"":""{Put:Age}"" }",AshishING@8,21000,29,

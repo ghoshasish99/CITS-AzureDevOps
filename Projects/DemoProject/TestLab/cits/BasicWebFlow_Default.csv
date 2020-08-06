@@ -1,0 +1,2 @@
+Execute,TestScenario,TestCase,Iteration,Status,Browser,BrowserVersion,Platform
+true,BasicFeatures,Iterations&SubIterations,All,Passed,Chrome,Default,Any

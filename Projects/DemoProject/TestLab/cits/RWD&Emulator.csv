@@ -1,0 +1,4 @@
+Execute,TestScenario,TestCase,Iteration,Status,Browser,BrowserVersion,Platform
+true,Emulators,WebFlow_ChromeRWD,Single,Passed,ChromeRWD,Default,Any
+true,Emulators,ChromeEmulator_Iphone5,Single,Passed,Emulator_Iphone5,Default,Any
+true,Emulators,Iphone5_UserAgent,Single,Passed,Iphone5_UA,Default,Any

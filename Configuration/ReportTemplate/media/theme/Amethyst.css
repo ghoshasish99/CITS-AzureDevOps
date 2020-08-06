@@ -1,0 +1,71 @@
+/*
+ * Copyright 2014 - 2017 Cognizant Technology Solutions
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+.tsetDetails.heading thread ,th {
+   color: whitesmoke;  //Test Details table header font
+}
+.tsetDetails.heading tbody {
+    background: beige;      //Test Details table rows
+}
+.grp.head{
+     color:white;
+    background: #664E82;    //header for tables
+}.grp.head.browsers{
+    background: #664E82;
+     color:white;
+}
+thead{
+    background: #664E82;    //Test Details table header    
+     font-size: 12px;
+}
+thead input{
+    border-bottom-left-radius: 5px;
+border-top-right-radius: 5px;
+border-top-left-radius: 5px;
+border-bottom-right-radius: 5px;
+    color: black;
+}
+.tesetDetails.heading table thead tr{
+    background: #664E82;
+}
+.exe.table thead  { 			
+    border-spacing: 1px;  font-size: 14px ;
+    background: #664E82;   ;
+    color: white;
+}
+.exe.table.step.evenx,.exe.table.step.evenx td,.exe.table.step.evenx td a,.exe.table.step.evenx td label{
+    background:white; //For even steps in test case steps
+}
+.exe.table.ng-scope.even,.exe.table.ng-scope.even td,.exe.table.ng-scope.even td a,.exe.table.ng-scope.even td label{
+    background:white;
+}
+.exe.table.step.oddx,.exe.table.step.oddx td{
+    background:beige;       //test case details steps
+}
+.exe.table.ng-scope.odd,.exe.table.ng-scope.odd td{
+    background:beige;       //test case details steps
+}
+.exe.table.iteration{
+    background: #BFB1D0;
+    color: black;
+}
+.exe.table.reusable{
+    background: #DFD8E8;   
+    font-size: medium;
+}
+.exe.table.time{
+     background:inherit;  
+}

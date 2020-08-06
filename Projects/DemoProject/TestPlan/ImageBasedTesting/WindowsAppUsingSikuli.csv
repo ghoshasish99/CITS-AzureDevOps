@@ -1,0 +1,9 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,App,Open the Application [<Data>],openApp,@Calc,,
+2,Two,[<Object>] image is clicked,imgClick,,,Calculator
+3,Add,[<Object>] image is clicked,imgClick,,,Calculator
+4,Five,[<Object>] image is clicked,imgClick,,Start Loop,Calculator
+5,Browser,This a dummy function helpful with testing.,filler,,End Loop:@5,
+6,Equals,[<Object>] image is clicked,imgClick,,,Calculator
+7,Group,[<Object>] image is clicked,imgStoreTextAbove,%var1%,,Calculator
+8,Browser,print the data [<Data>],print,%var1%,,
