@@ -2,10 +2,10 @@
 pool:
   vmImage: 'ubuntu-latest'
 
-
 - task: CmdLine@2
   inputs:
     script: './Run.command -run -project_location "Projects/WebserviceDemoProject" -release "Azure" -testset "Get"'
+    workingDirectory: '$(System.DefaultWorkingDirectory)'
   displayName: 'Execute CITS'
 trigger:
 - master
