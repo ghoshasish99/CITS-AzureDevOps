@@ -1,4 +1,5 @@
 # Starter pipeline
+
 pool:
   vmImage: 'ubuntu-latest'
 
@@ -6,6 +7,9 @@ trigger:
 - master
 
 steps:
+- task: CmdLine@2
+  inputs:
+    script: 'chmod -R 777 ./'
 - task: CmdLine@2
   inputs:
     script: './Run.command -run -project_location "Projects/WebserviceDemoProject" -release "Azure" -testset "Get"'
