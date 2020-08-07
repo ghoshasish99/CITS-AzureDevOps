@@ -10,7 +10,7 @@ steps:
   inputs:
     script: './Run.command -run -project_location "Projects/WebserviceDemoProject" -release "Azure" -testset "Get"'
     workingDirectory: '$(System.DefaultWorkingDirectory)/CITS'
-   displayName: 'Execute CITS Test' 
+  displayName: 'Execute CITS Test' 
 
 
 - task: PublishTestResults@2
