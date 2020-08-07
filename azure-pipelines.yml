@@ -20,7 +20,7 @@ steps:
 - task: PublishTestResults@2
   inputs:
     testResultsFormat: 'JUnit'
-    testResultsFiles: 'Projects\WebserviceDemoProject\Results\TestExecution\Azure\Get\Latest\junit.xml'
+    testResultsFiles: 'Projects/WebserviceDemoProject/Results/TestExecution/Azure/Get/Latest/junit.xml'
     failTaskOnFailedTests: true
     testRunTitle: 'API Test Run'
   displayName: 'Publish Reports'
