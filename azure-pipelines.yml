@@ -9,7 +9,7 @@ trigger:
 steps:
 - task: CmdLine@2
   inputs:
-    script: 'chmod -R 777 ./'
+    script: 'chmod -R 755 ./'
   displayName: 'Set Permissions'
     
 - task: CmdLine@2
