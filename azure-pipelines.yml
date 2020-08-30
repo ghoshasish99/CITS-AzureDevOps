@@ -4,25 +4,35 @@ pool:
   vmImage: 'ubuntu-latest'
 
 trigger:
-- master
+- SeleniumGrid
 
 steps:
 - task: CmdLine@2
   inputs:
     script: 'chmod -R 755 ./'
   displayName: 'Set Permissions'
-    
+
+
+- task: CmdLine@2
+  inputs:
+    script: 'docker-compose up -d'
+    workingDirectory: '$(System.DefaultWorkingDirectory)'
+
 - task: CmdLine@2
   inputs:
     script: './Run.command -run -project_location $(ProjectLocation) -release $(ReleaseName) -testset $(TestSetName)'
     workingDirectory: '$(System.DefaultWorkingDirectory)'
   displayName: 'Execute CITS Test' 
 
-
 - task: PublishTestResults@2
   inputs:
     testResultsFormat: 'JUnit'
     testResultsFiles: '$(ProjectLocation)/Results/TestExecution/$(ReleaseName)/$(TestSetName)/Latest/junit.xml'
     failTaskOnFailedTests: true
-    testRunTitle: 'API Test Run'
+    testRunTitle: 'Grid Test Run'
   displayName: 'Publish Reports'
+
+- task: CmdLine@2
+  inputs:
+    script: 'docker-compose down'
+    workingDirectory: '$(System.DefaultWorkingDirectory)'
