@@ -17,6 +17,7 @@ steps:
   inputs:
     script: 'docker-compose up -d'
     workingDirectory: '$(System.DefaultWorkingDirectory)'
+  displayName: 'Spin up Selenium Grid'  
 
 - task: CmdLine@2
   inputs:
@@ -36,3 +37,4 @@ steps:
   inputs:
     script: 'docker-compose down'
     workingDirectory: '$(System.DefaultWorkingDirectory)'
+  displayName: 'Bring down and remove Selenium Grid'  
