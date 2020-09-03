@@ -11,34 +11,3 @@ steps:
   inputs:
     script: 'chmod -R 755 ./'
   displayName: 'Set Permissions'
-
-
-- task: CmdLine@2
-  inputs:
-    script: 'docker-compose up -d'
-    workingDirectory: '$(System.DefaultWorkingDirectory)'
-  displayName: 'Spin up Selenium Grid'  
-
-- task: CmdLine@2
-  inputs:
-    script: './Run.command -run -project_location $(ProjectLocation) -release $(ReleaseName) -testset $(TestSetName)'
-    workingDirectory: '$(System.DefaultWorkingDirectory)'
-  displayName: 'Execute CITS Test' 
-
-- task: CmdLine@2
-  inputs:
-    script: 'docker run ghoshasish99/cits-test:v3'
-
-- task: PublishTestResults@2
-  inputs:
-    testResultsFormat: 'JUnit'
-    testResultsFiles: '$(ProjectLocation)/Results/TestExecution/$(ReleaseName)/$(TestSetName)/Latest/junit.xml'
-    failTaskOnFailedTests: true
-    testRunTitle: 'Grid Test Run'
-  displayName: 'Publish Reports'
-
-- task: CmdLine@2
-  inputs:
-    script: 'docker-compose down'
-    workingDirectory: '$(System.DefaultWorkingDirectory)'
-  displayName: 'Bring down and remove Selenium Grid'  
