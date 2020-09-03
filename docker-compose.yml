@@ -12,4 +12,13 @@ services:
     environment:
       - HUB_HOST=selenium-hub
       - HUB_PORT=4444
- 
+  automation:
+    image: citsimage
+    container_name: automation-test
+    depends_on:
+      - chrome 
+    environment:
+      - PROJ=Projects/DemoProject
+      - RELEASE=Grid
+      - TESTSET=Test
+      - GRIDURL=http://selenium-hub:4444/wd/hub
