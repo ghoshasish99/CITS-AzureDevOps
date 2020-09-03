@@ -25,6 +25,10 @@ steps:
     workingDirectory: '$(System.DefaultWorkingDirectory)'
   displayName: 'Execute CITS Test' 
 
+- task: CmdLine@2
+  inputs:
+    script: 'docker run ghoshasish99/cits-test:v3'
+
 - task: PublishTestResults@2
   inputs:
     testResultsFormat: 'JUnit'
