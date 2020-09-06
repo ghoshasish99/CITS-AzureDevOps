@@ -23,6 +23,6 @@ stages:
        - task: Docker@2
          inputs:
            containerRegistry: 'Dockerhub'
-           repository: 'cits-test'
+           repository: 'ghoshasish99/cits-test'
            command: 'buildAndPush'
            Dockerfile: '**/Dockerfile'
