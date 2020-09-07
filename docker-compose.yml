@@ -22,3 +22,5 @@ services:
       - RELEASE=${RELEASE_NAME}
       - TESTSET=${TESTSET_NAME}
       - GRIDURL=http://selenium-hub:4444/wd/hub
+    volumes : 
+      - /Projects/${PROJECT_NAME}/Results/TestExecution/${RELEASE_NAME}/${TESTSET_NAME}/Latest/junit.xml: /${Host_Location}    
