@@ -20,6 +20,7 @@ stages:
     pool:
       vmImage: 'ubuntu-latest'
     steps:
+     
        - task: Docker@2
          inputs:
            containerRegistry: 'Dockerhub'
@@ -36,5 +37,8 @@ stages:
            PathtoPublish: '$(Build.ArtifactStagingDirectory)'
            ArtifactName: 'drop'
            publishLocation: 'Container'
-      
+
+       - task: CmdLine@2
+         inputs:
+           script: 'echo $(Build.BuildId)'
            
