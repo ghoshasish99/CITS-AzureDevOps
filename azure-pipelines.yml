@@ -1,13 +1,41 @@
-# Starter pipeline
-
-pool:
-  vmImage: 'ubuntu-latest'
+# Docker
+# Build a Docker image 
+# https://docs.microsoft.com/azure/devops/pipelines/languages/docker
 
 trigger:
-- SeleniumGrid
+- master
 
-steps:
-- task: CmdLine@2
-  inputs:
-    script: 'chmod -R 755 ./'
-  displayName: 'Set Permissions'
+resources:
+- repo: self
+
+variables:
+  tag: '$(Build.BuildId)'
+
+stages:
+- stage: Build
+  displayName: Build and Push image
+  jobs:  
+  - job: Build
+    displayName: Build and Push
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+       - task: Docker@2
+         inputs:
+           containerRegistry: 'Dockerhub'
+           repository: 'ghoshasish99/cits-test'
+           command: 'buildAndPush'
+           Dockerfile: '**/Dockerfile'
+           
+       - task: CopyFiles@2
+         inputs:
+           Contents: 'docker-compose.yml'
+           TargetFolder: '$(Build.ArtifactStagingDirectory)'
+           
+       - task: PublishBuildArtifacts@1
+         inputs:
+           PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+           ArtifactName: 'drop'
+           publishLocation: 'Container'
+      
+           
