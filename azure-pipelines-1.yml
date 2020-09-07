@@ -38,7 +38,4 @@ stages:
            ArtifactName: 'drop'
            publishLocation: 'Container'
 
-       - task: CmdLine@2
-         inputs:
-           script: 'echo $(Build.BuildId)'
            
