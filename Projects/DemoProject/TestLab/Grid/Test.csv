@@ -1,2 +1,2 @@
 Execute,TestScenario,TestCase,Iteration,Status,Browser,BrowserVersion,Platform
-true,Grid,TC1,Single,NoRun,Chrome,Default,Any
+true,Grid,TC1,Single,Passed,Chrome,Default,Any
